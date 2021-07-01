@@ -10,8 +10,17 @@ int main() {
 
 //the top one wins all the test cases,
 //but it hangs in clion and I am not sure why
+ 
+    // i went to discord c++ help and they explain cin is meant for user input, 
+    //cin is the way I was first taught to input values into a program
+    //i don't understand stdin and stdout yet, (forgive me nyu instructors i know you tried)
+    // but basically cin wasn't hanging so much as waiting for input
+    // cin is NOT MEANT for hardcoded values I guess, just keyboard and file input
+    
+ 
 //tandon ta's felt clion does
-//stuff for users other compilers would (justifiably) force you to manage yourself.
+//stuff for users other compilers would (justifiably) force you to manage yourself,
+//by simply giving you a specific error
 
 //so a,b,c are initialized to 1,2,7
 //cin bit shift operator int variable 3x
@@ -19,7 +28,7 @@ int main() {
 // memory,
 //( memory you have not been forced to define yourself mind you, like with pointers and new)
 // and when it jumps to cout
-//tje compiler adds them all up nice and neat
+//the compiler adds them all up nice and neat
     int a =1;
     int b =2;
     int c = 7;
